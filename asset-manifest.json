@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mystery-by-Ondalys/static/css/main.90e9e3df.css",
-    "main.js": "/Mystery-by-Ondalys/static/js/main.22dc2cf8.js",
+    "main.js": "/Mystery-by-Ondalys/static/js/main.dddcfbd3.js",
     "static/js/453.1d2ec96c.chunk.js": "/Mystery-by-Ondalys/static/js/453.1d2ec96c.chunk.js",
     "index.html": "/Mystery-by-Ondalys/index.html",
     "main.90e9e3df.css.map": "/Mystery-by-Ondalys/static/css/main.90e9e3df.css.map",
-    "main.22dc2cf8.js.map": "/Mystery-by-Ondalys/static/js/main.22dc2cf8.js.map",
+    "main.dddcfbd3.js.map": "/Mystery-by-Ondalys/static/js/main.dddcfbd3.js.map",
     "453.1d2ec96c.chunk.js.map": "/Mystery-by-Ondalys/static/js/453.1d2ec96c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90e9e3df.css",
-    "static/js/main.22dc2cf8.js"
+    "static/js/main.dddcfbd3.js"
   ]
 }
