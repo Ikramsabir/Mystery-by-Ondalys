@@ -1,13 +1,45 @@
+/* في index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Tajawal', sans-serif;
+  background: linear-gradient(135deg, #d8fcfc 0%, #ffffff 25%, #f0fdfd 50%, #ffffff 75%, #d8fcfc 100%);
+  background-attachment: fixed;
+  margin:-10;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* أنيميشن الموج */
+@keyframes wave {
+  0%, 100% { transform: translateX(0) translateY(0); }
+  50% { transform: translateX(-2px) translateY(2px); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-wave {
+  animation: wave 3s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* تأثيرات الزجاج */
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* خطوط خاصة للعناوين */
+.font-arabic {
+  font-family: 'El Messiri', serif;
+}
+
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
 }
